@@ -28,8 +28,10 @@ Non-trainable params: 4,800,000
 _________________________________________________________________
 ```
 ### Model Performance
+
 Model Accuracy
 ![Model Accuracy](https://github.com/youssefokeil/SentimentAnalysis/blob/main/Sentiment%20Analysis%20Figures/tf_accuracy.png)
+
 Model Loss
 ![Model Loss](https://github.com/youssefokeil/SentimentAnalysis/blob/main/Sentiment%20Analysis%20Figures/tf_loss.png)
 ## DL with Pytorch
@@ -46,8 +48,10 @@ SentimentLSTM(
 
 ```
 ### Model Performance
+
 Model Accuracy
 ![Model Accuracy](https://github.com/youssefokeil/SentimentAnalysis/blob/main/Sentiment%20Analysis%20Figures/torch_accuracy.jpeg)
+
 Model Loss
 ![Model Loss](https://github.com/youssefokeil/SentimentAnalysis/blob/main/Sentiment%20Analysis%20Figures/torch_loss.jpeg)
 ## Classical Approach
@@ -56,6 +60,8 @@ Model Loss
 ### Model Performance
 Model Accuracy
 `The accuracy of our model is 53.062%`
+
+
 Classification Report
 ```
 Model Loss
