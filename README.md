@@ -30,10 +30,13 @@ _________________________________________________________________
 ### Model Performance
 
 Model Accuracy
+
 ![Model Accuracy](https://github.com/youssefokeil/SentimentAnalysis/blob/main/Sentiment%20Analysis%20Figures/tf_accuracy.png)
 
 Model Loss
+
 ![Model Loss](https://github.com/youssefokeil/SentimentAnalysis/blob/main/Sentiment%20Analysis%20Figures/tf_loss.png)
+
 ## DL with Pytorch
 ### Model Definition
 ```
@@ -50,15 +53,19 @@ SentimentLSTM(
 ### Model Performance
 
 Model Accuracy
+
 ![Model Accuracy](https://github.com/youssefokeil/SentimentAnalysis/blob/main/Sentiment%20Analysis%20Figures/torch_accuracy.jpeg)
 
 Model Loss
+
 ![Model Loss](https://github.com/youssefokeil/SentimentAnalysis/blob/main/Sentiment%20Analysis%20Figures/torch_loss.jpeg)
+
 ## Classical Approach
 ### Linear SVM
 `clf=svm.LinearSVC()`
 ### Model Performance
 Model Accuracy
+
 `The accuracy of our model is 53.062%`
 
 
