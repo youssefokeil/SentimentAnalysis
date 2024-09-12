@@ -29,6 +29,42 @@ _________________________________________________________________
 ```
 ### Model Performance
 Model Accuracy
-![Model Accuracy]("Sentiment Analysis Figures/tf_accuracy.png")
+![Model Accuracy](https://github.com/youssefokeil/SentimentAnalysis/blob/main/Sentiment%20Analysis%20Figures/tf_accuracy.png)
 Model Loss
-![Model Loss]("Sentiment Analysis Figures/tf_loss.png")
+![Model Loss](https://github.com/youssefokeil/SentimentAnalysis/blob/main/Sentiment%20Analysis%20Figures/tf_loss.png)
+## DL with Pytorch
+### Model Definition
+```
+SentimentLSTM(
+  (embed): Embedding(16000, 300, padding_idx=0)
+  (lstm): LSTM(300, 100, num_layers=2, batch_first=True, dropout=0.3, bidirectional=True)
+  (conv): Conv1d(280, 100, kernel_size=(5,), stride=(1,))
+  (pool): AdaptiveAvgPool1d(output_size=100)
+  (fc1): Linear(in_features=100, out_features=16, bias=True)
+  (fc2): Linear(in_features=16, out_features=1, bias=True)
+)
+
+```
+### Model Performance
+Model Accuracy
+![Model Accuracy](https://github.com/youssefokeil/SentimentAnalysis/blob/main/Sentiment%20Analysis%20Figures/torch_accuracy.jpeg)
+Model Loss
+![Model Loss](https://github.com/youssefokeil/SentimentAnalysis/blob/main/Sentiment%20Analysis%20Figures/torch_loss.jpeg)
+## Classical Approach
+### Linear SVM
+`clf=svm.LinearSVC()`
+### Model Performance
+Model Accuracy
+`The accuracy of our model is 53.062%`
+Classification Report
+```
+Model Loss
+              precision    recall  f1-score   support
+
+    negative       0.53      0.61      0.57      4008
+     positve       0.54      0.45      0.49      3992
+
+    accuracy                           0.53      8000
+   macro avg       0.53      0.53      0.53      8000
+weighted avg       0.53      0.53      0.53      8000
+```
